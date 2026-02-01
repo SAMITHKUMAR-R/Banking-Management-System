@@ -3,7 +3,6 @@ package com.bank.management;
 import java.util.ArrayList;
 import java.util.Scanner;
 
-
 class Account {
     private int accountNumber;
     private String name;
@@ -37,7 +36,6 @@ class Account {
         System.out.println("Account No: " + accountNumber + ", Name: " + name + ", Balance: " + balance);
     }
 }
-
 
 public class BankingManagementSystem {
 	
@@ -129,4 +127,5 @@ public class BankingManagementSystem {
 	    }
 	}
 	
+
 		
