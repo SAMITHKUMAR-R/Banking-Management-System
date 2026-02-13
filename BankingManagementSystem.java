@@ -1,4 +1,5 @@
 package com.bank.management;
+
 import java.util.ArrayList;
 import java.util.Scanner;
 
@@ -64,7 +65,7 @@ public class BankingManagementSystem {
 	        }
 	    }
 
-	    // Create a new account
+	    // Create a new account----
 	    static void createAccount() {
 	        System.out.print("Enter Account Number: ");
 	        int accNo = sc.nextInt();
@@ -128,4 +129,5 @@ public class BankingManagementSystem {
 	
 
 		
+
 
