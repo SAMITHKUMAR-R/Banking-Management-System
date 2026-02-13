@@ -64,7 +64,6 @@ public class BankingManagementSystem {
 	            }
 	        }
 	    }
-
 	    // Create a new account----
 	    static void createAccount() {
 	        System.out.print("Enter Account Number: ");
@@ -78,7 +77,6 @@ public class BankingManagementSystem {
 	        accounts.add(new Account(accNo, name, balance));
 	        System.out.println("Account created successfully!");
 	    }
-
 	    // Deposit money
 	    static void deposit() {
 	        System.out.print("Enter Account Number: ");
@@ -92,7 +90,6 @@ public class BankingManagementSystem {
 	            System.out.println("Account not found!");
 	        }
 	    }
-
 	    // Withdraw money
 	    static void withdraw() {
 	        System.out.print("Enter Account Number: ");
@@ -106,7 +103,6 @@ public class BankingManagementSystem {
 	            System.out.println("Account not found!");
 	        }
 	    }
-
 	    // View all accounts
 	    static void viewAccounts() {
 	        if(accounts.isEmpty()) {
@@ -117,7 +113,6 @@ public class BankingManagementSystem {
 	            }
 	        }
 	    }
-
 	    // Find account by account number
 	    static Account findAccount(int accNo) {
 	        for(Account acc : accounts) {
@@ -129,5 +124,6 @@ public class BankingManagementSystem {
 	
 
 		
+
 
 
