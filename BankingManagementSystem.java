@@ -30,8 +30,7 @@ class Account {
         } else {
             System.out.println("Insufficient balance!");
         }
-    }
-
+	}
     public void display() {
         System.out.println("Account No: " + accountNumber + ", Name: " + name + ", Balance: " + balance);
     }
@@ -64,7 +63,7 @@ public class BankingManagementSystem {
 	            }
 	        }
 	    }
-	    // Create a new account----
+	    // Create a new account
 	    static void createAccount() {
 	        System.out.print("Enter Account Number: ");
 	        int accNo = sc.nextInt();
@@ -124,6 +123,7 @@ public class BankingManagementSystem {
 	
 
 		
+
 
 
 
